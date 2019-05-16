@@ -2,6 +2,10 @@
 
 > Services install in ~/Library/Services
 
+Overwrite the Services folder in your home Library:
+
+    git clone https://github.com/GitBruno/OSX-Services.git ~/Library/Services
+
 Services are context aware and show up in OSX Finder contextual menu: `Right Mouse Click > Services > ...`
 
 There are some standard ones too like "New Terminal at Folder" you might want to activate in `System Preferences > Keyboard > Shortcuts > Services > New Terminal at Folder`
